@@ -19,7 +19,7 @@ git clone https://github.com/m3hdi2gh/Multithreaded_Sorting_Application.git
 cd Multithreaded_Sorting_Application
 
 # compile (GCC + pthread)
-gcc -pthread mt_sort_inplace.c -o mt_sort
+gcc -pthread multithread_sort.c -o mt_sort
 
 # run
 ./mt_sort        # enter 10 integers when prompted
